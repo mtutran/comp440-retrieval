@@ -34,11 +34,13 @@ Coco: The top terms are the characters' names, but there is no words distinctive
 
 ### Your questions, as you typed them
 
-XXXX
+1. What is the movie about a boy who dreams of being a musician but his family has banned it due to a misunderstanding of his great-great-grandfather?
+2. What is the colorful Pixar movie about a boy that somehow ends up in the world of the dead?
+3. What is the movie with a boy named Miguel met and found out the truth about his great-great-granfather Hector while tried to find Ernesto de la Cruz to get out of the world of the dead?
 
 ### Did the movies you meant come up? What did TF-IDF get right and wrong?
 
-XXXX
+The movie I meant (Coco) came up only in Question 3 (a detail question with specific word - characters' names). Thus, TF-IDF works well for detail questions with specific keywords while it does not get the movie right for reworded or vague questions.
 
 ## Part 4: The question bank
 
