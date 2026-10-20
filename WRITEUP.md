@@ -20,7 +20,9 @@ I think embedding search will do better since the questions do not contain any s
 
 ### The settings you chose, and why
 
-XXXX
+- `REMOVE_STOP_WORDS = False`: I keep the current value because I think TF-IDF will handle common words.
+- `MIN_MOVIES = 1`: I keep the current value because I want to keep words that are unique to a movie (for example, character's name).
+- `REPEATS_COUNT_LESS = True`: I change it to True because I do not want some words to dominate the score.
 
 ## Part 2: Top terms
 
