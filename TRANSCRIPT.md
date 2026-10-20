@@ -396,7 +396,7 @@ Next slot: did the movies you meant come up, and what did TF-IDF get right and w
 <!-- transcript-session: e71c9b08-2f62-46e4-b89e-6af7b972a1be | 2026-10-20T20:29:56.186Z -->
 ## Session `e71c9b08`, 2026-10-20 20:29:56
 
-*12 user turns. Tool outputs and reasoning omitted.*
+*13 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 continue
@@ -674,5 +674,40 @@ Normalize the score of the the two methods then combine them.
 - 🔧 `Bash`: Commit and push Part 5, check template updates
 - 🔧 `Skill`: checkpoint
 - 🔧 `Bash`: Check commands run and list anything missing
+- 🔧 `Bash`: Refresh transcript, check status, push, get repo URL
+- 🔧 `Bash`: Commit and push the refreshed transcript
+Part 5 is saved on GitHub. Here's the final check:
+
+```
+== The commands ==
+  search.py (a tiny TF-IDF search): ran, 0.6 s
+  top_terms.py (one movie): ran, 0.4 s
+
+== What is missing ==
+  Nothing.
+
+== Saved on GitHub ==
+  Not committed yet: TRANSCRIPT.md
+
+0 things missing.
+Commit and push your work, then complete the Work Submission Form, https://forms.gle/mgKcnqzTGxNaGvteA, choose "Activity submission", and in its box write "Representing and Retrieving Knowledge" and your repository's GitHub URL.
+```
+
+The transcript script's last line:
+
+```
+2 session(s) found; this session in TRANSCRIPT.md: yes.
+```
+
+`TRANSCRIPT.md` was the only file not committed. I committed it as `Save work in progress` and pushed it, so everything is on GitHub now.
+
+To hand it in, complete the [Work Submission Form](https://forms.gle/mgKcnqzTGxNaGvteA) and choose "Activity submission". In its box, write "Representing and Retrieving Knowledge" and your repository's URL:
+
+https://github.com/mtutran/comp440-retrieval
+
+Tell me when you've submitted it.
+
+**User:**
+I submitted it
 
 <!-- end-session: e71c9b08-2f62-46e4-b89e-6af7b972a1be -->
