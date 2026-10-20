@@ -56,16 +56,16 @@ It seems like the question and the movie's plot summary conveyed the same idea u
 
 ### What is a sentence embedding, in your own words?
 
-XXXX
+Sentence embedding is giving text a list of numbers representing its semantic meaning so that texts with similar meaning get similar numbers regardless of the words used. For example, in Part 3, I used "somehow ends up in the world of the dead" which should have the similar meaning as "finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events".
 
 ### Where does each method do better, and why?
 
-XXXX
+TF-IDF generally did better when the questions use characters' names or specific words that the plot summary contains. Embedding did better when the questions match the plot summary in terms of meaning, not necessarily exact words.
 
 ### Your Part 0 predictions: which held, and which would you change?
 
-XXXX
+Looking at the results, I think my predictions held. TF-IDF generally does better when the questions have specific words, almost unique to the movie's plot, while embedding does better when the questions match the plot in terms of meaning.
 
 ### How might you combine the two methods?
 
-XXXX
+Normalize the score of the the two methods then combine them.
