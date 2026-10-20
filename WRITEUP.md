@@ -46,11 +46,11 @@ The movie I meant (Coco) came up only in Question 3 (a detail question with spec
 
 ### Which kind of question did TF-IDF handle best, and which worst? By how much?
 
-XXXX
+TF-IDF handled detail questions best and reworded questions worst (it handled vague questions almost as bad). For the detail questions, it put the right movie first around 67% of the time and in the top 10 for around 94% of the time. For reworded questions, it never get the right movie in the top 10, and for the vague questions, it get the right movie in the top 10 once.
 
 ### The misses you looked at: what do they have in common?
 
-XXXX
+It seems like the question and the movie's plot summary conveyed the same idea using different words, and the words matched in the top 10 are mostly him, and, the, etc.
 
 ## Part 5: Embeddings
 
