@@ -28,7 +28,7 @@ I think embedding search will do better since the questions do not contain any s
 
 ### Your movies: what do the top terms get right and wrong about what makes each one distinctive?
 
-XXXX
+Coco: The top terms are the characters' names, but there is no words distinctive to the movie's plot like day of the death. Encanto: Similarly, the top terms are the characters' name and the setting of the movie, but they also do not reflect the movie's plot like magical family.
 
 ## Part 3: Your own searches
 
